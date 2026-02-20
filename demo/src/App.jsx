@@ -1,4 +1,5 @@
 import './App.css';
+import Football from './football';
 
 function App() {
 
@@ -39,8 +40,13 @@ function App() {
       <p>{p.greet()}</p>
 
       <p>Destructured values: a={a}, b={b}, c={c}</p>
+       <Football isGoal={true}/>
+
     </div>
   );
 }
+
+ 
+
 
 export default App;
